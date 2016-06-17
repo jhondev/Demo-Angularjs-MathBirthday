@@ -8,7 +8,7 @@
         var vm = this
 
         vm.mathBirthdayDays = 'your day-old...'
-        vm.mathBirthday = 'your math birthday...'
+        vm.mathBirthday = '...waiting'
 
         vm.birthDateOptions = {
             format: 'dd MMMM yyyy',
