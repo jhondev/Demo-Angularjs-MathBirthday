@@ -7,6 +7,7 @@ body
 {
     background-image: url('../images/birthday-cake.png');
     background-repeat: no-repeat;
+    background-size: 400px 350px;
     background-position: right bottom;
     height: 100%;
 }
