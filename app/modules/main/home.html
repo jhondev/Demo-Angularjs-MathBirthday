@@ -1,5 +1,17 @@
 <div class="row">
-    <div class="birthday-box col s12 l6">
-        <h1>Hello {{ vm.name }}</h1>
+    <div class="birthday-box">
+        <div>
+            <h5>Select Your Birth Date:</h5>
+            <input class="birthday-picker" kendo-date-picker k-options="vm.birthDateOptions">
+            </input>
+        </div>
+        <div class="birthday-result">
+            <h5>Your Next Math Birthday Is</h5>
+            <h5>{{vm.mathBirthdayDays}}</h3>
+            <h4>{{vm.mathBirthday}}</h2>
+        </div>
+    </div>
+    <div class="birthday-message">
+        <h1>Everybody have a Math Birthday, yeah!!!</h1>
     </div>
 </div>
