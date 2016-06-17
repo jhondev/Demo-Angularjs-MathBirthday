@@ -7,7 +7,8 @@
     function Home($scope) {
         var vm = this
 
-        vm.mathBirthday = '?'
+        vm.mathBirthdayDays = 'your day-old...'
+        vm.mathBirthday = 'your math birthday...'
 
         vm.birthDateOptions = {
             format: 'dd MMMM yyyy',
